@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WeatherData</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_city">City…</string>
+    <string name="hint_country">Country code…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">City not saved because its name or country code is empty.</string>
+    <string name="add_city">Add city</string>
+    <string name="condition_desc">Condition</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="forecast">Show forecast</string>
+    <string name="date">Date</string>
+    <string name="day">Day</string>
+    <string name="night">Night</string>
+
+    <string name="ow_url">http://api.openweathermap.org/data/2.5/weather/</string>
+    <string name="ow_url_img">http://openweathermap.org/img/wn/</string>
+    <string name="ow_url_forecast">http://api.openweathermap.org/data/2.5/forecast/daily/</string>
+
+
+</resources>

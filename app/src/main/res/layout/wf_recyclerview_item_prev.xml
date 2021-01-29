@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/li_backGround">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding" />
+
+    <TextView
+        android:id="@+id/lblDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        android:padding="@dimen/small_padding" />
+
+    <TextView
+        android:id="@+id/tvTempDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding" />
+
+    <TextView
+        android:id="@+id/lblNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/night"
+        android:padding="@dimen/small_padding" />
+
+    <TextView
+        android:id="@+id/tvTempNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding" />
+</LinearLayout>
